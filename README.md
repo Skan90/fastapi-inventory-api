@@ -5,7 +5,9 @@ Este projeto é uma API RESTful para gerenciamento de um inventário de produtos
 A aplicação foi construída utilizando Python com o framework FastAPI. O projeto adota princípios de **Clean Code**, utilizando uma arquitetura em camadas e uma convenção de nomenclatura de arquivos que revela a intenção de cada módulo, facilitando a manutenção e evitando ambiguidades durante o desenvolvimento.
 
 **Aluno:** Rafael da Silva Santos
+
 **Polo:** Faculdade QI - Rio Grande/RS
+
 **LinkedIn:** https://www.linkedin.com/in/skan90/
 
 ---
