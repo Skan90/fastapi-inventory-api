@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: inventario_api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Monta o banco de dados SQLite para persistência
+      - ./data:/app/data
+      # Monta o código da aplicação para permitir o hot-reload
+      - ./app:/app/app
+    # O --reload é adicionado aqui para o ambiente de desenvolvimento.
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload

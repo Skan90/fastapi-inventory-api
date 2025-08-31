@@ -1,0 +1,42 @@
+# --- Ambientes Virtuais ---
+# Ambientes Virtuais
+.env
+venv/
+.venv/
+
+# --- Arquivos de Cache e Bytecode do Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Dados de Runtime e Logs ---
+# Ignora o diretório de dados onde o banco de dados é armazenado
+data/
+*.db
+*.sqlite3
+*.log
+
+# --- Artefatos de Build e Distribuição ---
+build/
+dist/
+*.egg-info/
+
+# --- Cobertura e Cache de Testes ---
+.pytest_cache/
+.coverage
+
+# --- Arquivos de Configuração de IDEs ---
+# PyCharm
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# --- Arquivos específicos de Sistema Operacional ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
