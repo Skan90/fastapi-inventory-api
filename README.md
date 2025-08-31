@@ -61,7 +61,11 @@ Este método é mais simples, pois o Docker gerencia todo o ambiente e as depend
 
 **Passos:**
 
-1.  **Extraia os arquivos do projeto** e navegue até o diretório raiz (`sw-atividade-integradora`).
+1.  **Clone o repositório** para a sua máquina local e navegue até o diretório do projeto:
+    ```bash
+    git clone https://github.com/Skan90/fastapi-inventory-api.git sw-atividade-integradora
+    cd sw-atividade-integradora
+    ```
 
 2.  **Inicie os containers** com Docker Compose:
     ```bash
@@ -85,7 +89,11 @@ Este método é mais simples, pois o Docker gerencia todo o ambiente e as depend
 
 **Passos:**
 
-1.  **Extraia os arquivos do projeto** e navegue até o diretório raiz (`sw-atividade-integradora`).
+1.  **Clone o repositório** e navegue até o diretório raiz:
+    ```bash
+    git clone https://github.com/Skan90/fastapi-inventory-api.git sw-atividade-integradora
+    cd sw-atividade-integradora
+    ```
 
 2.  **Crie e ative um ambiente virtual:**
     ```bash
